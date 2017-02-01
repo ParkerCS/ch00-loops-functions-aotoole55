@@ -1,3 +1,5 @@
+# 18/20
+
 #SECTION 2 - FUNCTIONS (20PTS TOTAL)
 
 #PROBLEM 1 (Length of String - 3pts)
@@ -64,6 +66,8 @@ print(round(math.e**(1),5))
 print(round(math.e**(2),5))
 print(round(math.e**(3),5))
 
+# Lee - This is a problem set on functions, you should use one here. Also use a loop (DRY principle) (-1)
+
 # PROBLEM 5 (Random int - 3pts)
 # Generate a random integer between 1 and 10 (1 and 10 both included),
 # but only use the random() function (randrange is not allowed here)
@@ -71,10 +75,13 @@ print(round(math.e**(3),5))
 import random
 
 def rand():
-    i = random.random()*9+1
+    i = random.random()*10+1 # CORRECTED check version history
     print(i)
 
 rand()
+
+# Lee - used a 9, corrected to 10. (-1)
+
 # PROBLEM 6 (add me, multiply me - 3pts)
 # Make a function which takes in two integers and RETURNS their sum AND their product.
 

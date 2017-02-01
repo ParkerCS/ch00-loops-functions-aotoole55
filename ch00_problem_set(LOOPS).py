@@ -1,3 +1,4 @@
+#20/22
 # LOOPS (22pts TOTAL)
 
 # PROBLEM 1 (Fibonacci - 4pts)
@@ -44,6 +45,8 @@ while done == False:
         print("You guessed it!")
         done = True
 
+# Lee - your program would be confusing to the user.  Is their number too high, or do they need to go higher?  Be explicit.  (-1)
+
 
 
 # PROBLEM 3 (Dice Hi-Low - 6pts)
@@ -70,6 +73,9 @@ for i in range(5000):
     trials += 1
 
 print("Probability =", str((success/trials)*100)+"%")
+
+# Lee - Works, but is very inefficient.  Start taking advantage of all your skills to write more effective code.  Use loops and a single tracking variable here. (DRY principle) (-1)
+
 
 # PROBLEM 4 (Number Puzzler - 6pts)
 # A, B, C, and D are all different digits.
